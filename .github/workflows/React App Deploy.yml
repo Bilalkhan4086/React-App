@@ -33,10 +33,10 @@ jobs:
         cmd: install # will run `yarn install` command
 
     - name: Building Yarn
-      run: Build yarn
+      run: yarn build
       
     - name: Installing Surge
       run: npm install -g surge
       
     - name: Finnal deploying
-      run: surge ./build myReactapp-surge-sh --token ${{TOKEN_VALUE}} 
+      run: surge ./build http://myReactapp-surge-sh --token ${{TOKEN_VALUE}} 
