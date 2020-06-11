@@ -19,7 +19,7 @@ height: 100vh;
     background-color: rgb(216, 78, 24);
 
 }
-lit {
+.lit {
     background-color: black;
     background-size: cover;
     color: rgba(15, 117, 250, 0.897);
