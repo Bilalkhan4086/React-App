@@ -4,20 +4,20 @@ height: 100vh;
 
 }
 .blue{
-    background-color: rgb(37, 52, 184);
-
+    background-image: url("background\ pic\ css/cold1.jfif");
+background-size:1080px 200px;
 }
-.yellow{
-    background-color: rgb(189, 173, 33);
-
+.yellow{ 
+       background-image: url("background\ pic\ css/fair.jfif");
+       background-size: cover;
 }
 .orange{
-    background-color: rgb(241, 174, 16);
-
+    background-image: url("background\ pic\ css/hot.jfif");
+    background-size: cover;
 }
 .red{
-    background-color: rgb(216, 78, 24);
-
+    background-image: url("background\ pic\ css/xhot.jfif");
+    background-size: cover;
 }
 .lit {
     background-color: black;
@@ -39,4 +39,11 @@ button{
     width: 50px;
     border: 3px solid red;
     margin-right: 5px;
+}
+button:hover{
+    width: 50px;
+    border: 3px solid red;
+    margin-right: 5px;
+padding: 4px;
+background-color: gray;
 }
