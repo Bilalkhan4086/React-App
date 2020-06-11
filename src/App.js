@@ -1,11 +1,10 @@
 import React from 'react';
 import './App.css';
 import './mystyles.css';
+import Room from './room';//importing Room function from room component. 
 
-function App(props) {
-return <div className="Hay0"><div className="Hay">Hello World!</div><br></br><div className="Hay">I am <strong>{props.name}</strong>.</div><div className="Hay">I am <strong>{props.age} years</strong> old.</div><h1 className="Hay1">My Friend includes:</h1><ol className="Hay1"><li>Ali</li><li>Hassan</li><li>Hussain</li><li>Umer</li><li>Asad</li></ol>
-<div className="Hay1">Working with &nbsp;&nbsp;&nbsp;&nbsp; space</div>
-<div className="Hay1">As we know that: 19 x 22 = {19*22}</div></div>
+function App() {
+return <div><Room></Room></div>//Room is the name of function in room.js
 }
 
-export default App;
+export default App;//Here App is a Component name.
