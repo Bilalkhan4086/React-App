@@ -1,0 +1,147 @@
+.EntireApp {
+text-align: center;
+position: relative;
+/* border: 1px solid black; */
+margin-left: 265px;margin-right: 265px;
+box-shadow: 0 0 10px black;
+border-radius: 5px;
+background-image: url("background 2.jfif");
+}
+.Header {
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 28px;
+    color: rgb(98, 0, 255);
+    text-align: center;
+position: relative;
+/* border: 1px solid black; */
+margin-left: 265px;margin-right: 265px;
+box-shadow: 0 0 10px black;
+border-radius: 5px;
+background-image: url("background 2.jfif");
+margin-bottom: 15px;
+}
+.Balance {
+    font-weight: bold;
+    text-align: left;
+    /* margin-left: 280px; */
+    color: white;
+}
+
+.TBalance{
+    color: green;
+    
+}
+.TBalance:hover{
+    font-weight: bolder;
+    color: green;
+}
+.BalanceExpense {
+    display: block;
+    box-shadow:0 0 10px black;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    
+    /* border: 1px solid grey; */
+    /* margin-left: 265px;margin-right: 265px; */
+}
+.PositiveBalance {
+
+    display: inline-block;
+    /* padding-right: 60px; */
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* border:1px solid grey; */
+    color: green;
+    padding-left: 5px;
+}
+.NegitiveBalance {
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* padding-left: 60px; */
+    /* display: flex; */
+    /* justify-content: space-around; */
+    color: red;
+    padding-right: 5px;
+    }
+    
+li{
+display: block;
+border:0.5px solid black;
+/* padding-right: 10px; 
+ padding-left: 9px; */
+ background-color: rgb(244, 246, 227);
+ margin-bottom: 5px;
+ box-shadow: 0 0 10px black;
+/* margin: 0px; */
+}
+.tHd{
+margin: 0px;
+color: black;
+padding: 0%;
+}
+.tHd > li{
+    justify-content: space-between;
+    display: flex;
+
+}
+.ThisHeading{
+    color: white;
+}
+li:hover{
+    /* display: inline-block;
+    border:0.5px solid black;
+    padding-right: 9px; 
+     padding-left: 9px; */
+    background-color: rgb(255, 0, 0);
+    }
+.AddTDesc{
+    font-weight: bold;
+    box-shadow: 0 0 10px black;
+    color: white;
+}
+#tdesc{
+    width: 210px;
+    box-shadow:0 0 10px black;
+}
+.AddTAm{
+    font-weight:bold ;
+    box-shadow: 0 0 10px black;
+    color: white;
+}
+#tAmo{
+    width: 210px;
+    box-shadow: 0 0 10px black;
+}
+.btn{
+    color: white;
+    background-color: blue;
+    font-weight: bold;
+    margin-top: 20px;
+    box-shadow: 0 0 10px blanchedalmond;
+}
+.btn:hover{
+    color: black;
+    background-color: grey;
+    font-weight: bold;
+
+}
+.x{
+float: left;
+    background-color: red;
+    font-weight: bolder;
+}
+.x:hover{
+    background-color: gray;
+    font-weight: bolder;
+}
+.minus > li{
+    border-right:5px red ;
+}
+.plus > li{
+    border-right:5px green ;
+}
